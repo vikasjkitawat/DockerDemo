@@ -1,6 +1,7 @@
 cd /git/repos/project1.git
-docker stop web
-docker rm web
-docker build -t web /git/repos/project1.git/
-git run -d --name web -p 80:80 web
+docker stop helloworld
+docker rm helloworld
+docker build -t hello-world /git/repos/project1.git/
+git run -d --name helloworld -p 80:80 hello-world
+
 

@@ -1,5 +1,3 @@
-# create new
-
 FROM centos
 MAINTAINER vikas <vikas@example.com>
 RUN yum -y install httpd
